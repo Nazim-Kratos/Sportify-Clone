@@ -1,0 +1,955 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0%;
+    height: 100%;
+    background-color: black;
+    /* overflow:auto; */
+    width: 100%;
+    object-fit: contain;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    padding-left: 0ch;
+    object-fit: contain;
+    position: sticky;
+    padding-top: 1ch;
+}
+
+.searchbar {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 7.5vh;
+    width: 27vw;
+    border-radius: 2rex;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 0.2rex solid rgba(255, 255, 255, 0.021);
+    font-weight: bolder;
+    padding-left: 5ch;
+    font-size: 1.8ch;
+    opacity: 10;
+    position: relative;
+    padding-left: 10ch;
+    text-align: left;
+    margin-left: 3ch;
+    object-fit: contain;
+}
+
+/* .navbar :hover{
+    transform: scale(1.04);
+    transition: all 1.0s ease-in-out;
+} */
+.oth1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5ch;
+    padding-left: 15ch;
+    position: sticky;
+}
+
+.oth2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5ch;
+    padding-left: 2ch;
+}
+
+.oth3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 1.5ch;
+    padding-left: 2ch;
+}
+
+.fontcolor {
+    color: white;
+}
+
+.oth1 a {
+    color: rgba(255, 255, 255, 0.575);
+    text-decoration: none;
+}
+
+.oth2 a {
+    color: rgba(255, 255, 255, 0.575);
+    text-decoration: none;
+}
+
+.oth3 a {
+    color: rgba(255, 255, 255, 0.575);
+    text-decoration: none;
+}
+
+.oth1:hover {
+    transform: scale(1.03);
+    transition: all 1.09s ease;
+    opacity: 0.5;
+}
+
+.oth2:hover {
+    transform: scale(1.03);
+    transition: all 1.09s ease;
+}
+
+.oth3:hover {
+    transform: scale(1.03);
+    transition: all 1.09s ease;
+}
+
+.line {
+    display: grid;
+    color: white;
+    padding-top: 1.5ch;
+    padding-left: 3ch;
+    font-size: 2.5ch;
+    font-weight: bold;
+}
+
+.install {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    padding-top: 2.4ch;
+    padding-left: 1.5ch;
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.install a {
+    color: rgba(255, 255, 255, 0.575);
+    text-decoration: none;
+}
+
+.install:hover {
+    transform: scale(1.03);
+    transition: all 1.09s ease;
+}
+
+.sign {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    padding-top: 2.4ch;
+    padding-left: 1.5ch;
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.sign a {
+    color: rgba(255, 255, 255, 0.575);
+    text-decoration: none;
+}
+
+.sign:hover {
+    transform: scale(1.03);
+    transition: all 1.09s ease;
+}
+
+.container {
+    padding-left: 5.5ch;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #fff;
+    font-weight: 700;
+    padding-top: 0.5ch;
+    padding-left: 1ch;
+    border-radius: 2rem;
+    border: 2px solid white;
+    height: 8vh;
+    width: 8vw;
+    font-size: 1.9ch;
+    cursor: pointer;
+}
+
+.container:hover {
+    transform: scale(1.03);
+    transition: all 1.09s ease;
+}
+
+.img {
+    display: flex;
+    width: 3vw;
+    height: 8vh;
+    border-radius: 200cqh;
+    padding-left: 2ch;
+    padding-right: 4ch;
+}
+
+.box1 {
+    position:relative;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 2px solid rgba(255, 255, 255, 0.048);
+    border-radius: 1rem;
+    width: 30vw;
+    height: 83vh;
+    color: white;
+    padding-left: 0;
+    background-color: rgba(255, 255, 255, 0.068);
+    object-fit: contain;
+    overflow-y: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.box2 {
+    position: calc(100-25);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 2px solid rgba(255, 255, 255, 0.075);
+    width: 27.4vw;
+    height: 20vh;
+    border-radius: 0.5rem;
+    padding-left: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding-bottom: 2rem;
+    object-fit: contain;
+}
+
+.upper {
+    position: relative;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 2px; */
+    object-fit: contain;
+
+
+}
+
+.box3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 2px solid rgba(255, 255, 255, 0.075);
+    width: 27.4vw;
+    height: 20vh;
+    border-radius: 0.5rem;
+    padding-left: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding-bottom: 2rem;
+    object-fit: contain;
+}
+
+.space {
+    padding-top: 0.5rem;
+}
+
+.butn1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #fff;
+    font-weight: 800;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    height: 6vh;
+    width: 9vw;
+    font-size: 13px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butn1:hover {
+    transform: scale(1.07);
+    transition: all ease 1.08s;
+}
+
+.butn2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #fff;
+    font-weight: 800;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    height: 6vh;
+    width: 10vw;
+    font-size: 12px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butn2:hover {
+    transform: scale(1.07);
+    transition: all ease 1.08s;
+}
+
+.butn3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ffffff09;
+    font-weight: 800;
+    padding-left: 0.1ch;
+    padding-right: 0.5ch;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.219);
+    height: 6vh;
+    width: 7.5vw;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butnn {
+    padding-top: 4ch;
+    padding-left: 1.9ch;
+}
+
+.globe {
+    background-color: #fff;
+    border-radius: 4rem;
+    width: 1.5vw;
+    height: 3vh;
+}
+
+.innerb {
+    padding-right: 1ch;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2ch;
+}
+
+.legal {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+
+}
+
+.privacy {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+
+}
+
+.seafty {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+}
+
+.cookie {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+}
+
+.butn3:hover {
+    transform: scale(1.08);
+    transition: all 0.1 ease;
+}
+
+.legal,
+.privacy,
+.seafty,
+.cookie,
+a {
+    text-decoration: none;
+}
+
+.rightbox {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 2px solid rgba(255, 255, 255, 0.068);
+    width: 80vw;
+    margin: 1px;
+    border-radius: 1rem;
+    height: 83vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+.rightheading {
+    display: flex;
+    padding-left: 2ch;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.rightheading a {
+    color: white;
+}
+
+.card img {
+    display: flex;
+    width: 10vw;
+    object-fit: contain;
+    padding-left: 2ch;
+    border-radius: 0.5rem;
+    margin-left: 0.2ch;
+}
+
+.card {
+    color: white;
+    font-size: 17px;
+    margin-top: 0%;
+    object-fit: contain;
+
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    object-fit: contain;
+    /* margin-right:0% ; */
+    position: relative;
+
+}
+
+.songTitle {
+    padding-left: 0.9rem;
+    margin-top: 0%;
+    font-size: 12px;
+
+}
+
+.card a {
+    color: white;
+    margin-top: 0%;
+
+}
+
+.description {
+    display: flex;
+    font-size: 12px;
+    margin-top: 0%;
+    padding-left: 0.9rem;
+    color: white;
+}
+
+.card1 img {
+    display: flex;
+    margin-left: 1.7ch;
+    border-radius: 0.5rem;
+    width: 11vw;
+    height: 24vh;
+    flex-wrap: wrap;
+}
+
+.card1 a {
+    color: white;
+    margin-top: 0%;
+}
+
+.card1 {
+    font-size: 17px;
+}
+
+.card2 img {
+    display: flex;
+    margin-left: 1.7ch;
+    border-radius: 0.5rem;
+    width: 11vw;
+    height: 24vh;
+    flex-wrap: wrap;
+}
+
+.card2 a {
+    color: white;
+    margin-left: 0%;
+}
+
+.card3 img {
+    display: flex;
+    margin-left: 1.7ch;
+    border-radius: 0.5rem;
+    width: 11vw;
+    height: 24vh;
+}
+
+.card3 a {
+    color: white;
+    margin-left: 0%;
+}
+
+.card2 {
+    font-size: 17px;
+    object-fit: contain;
+}
+
+.card3 {
+    font-size: 17px;
+    object-fit: contain;
+}
+
+.card:hover {
+    transform: scale(1.08s);
+    transition: all 1.02ms;
+    opacity: 0.4;
+}
+
+.card1:hover {
+    transform: scale(1.08s);
+    transition: all 1.02ms;
+    opacity: 0.4;
+}
+
+.card2:hover {
+    transform: scale(1.08s);
+    transition: all 1.02ms;
+    opacity: 0.4;
+}
+
+.card3:hover {
+    transform: scale(1.08s);
+    transition: all 1.02ms;
+    opacity: 0.4;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin-left: 1.7ch;
+}
+
+/* Style and position play button on top of image */
+.play-button {
+    position: relative;
+    top: 1%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    background: #1ed760;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-top: 0%;
+    margin-right: 4ch;
+}
+
+/* White triangle play icon */
+.play-icon {
+    width: 0;
+    height: 0;
+    border-left: 15px solid white;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    margin-left: 3px;
+}
+
+.card:hover .play-button {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.card1:hover .play-button {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.card2:hover .play-button {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.card3:hover .play-button {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.rightheading {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.rightheading {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rightheading1::after {
+    content: "";
+    position: absolute;
+    left: 1ch;
+    top: 3ch;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: #1ed760;
+    border-radius: 10px;
+    transition: width 0.20s ease-in-out;
+}
+
+.rightheading1:hover::after {
+    width: 100%;
+}
+.trio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.songbutton {
+    position: absolute;   /* absolute inside .card */
+    bottom: 2px;            /* stick to bottom */
+    left: 50%;            /* center horizontally */
+    transform: translateX(-50%);
+    width: 68vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    object-fit: contain;
+    flex-wrap: wrap;
+    
+}
+
+.seekbar{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0%;
+    width: 96%;
+    height: 2vh;
+    background-color: rgba(255, 255, 255, 0.068);
+    position: absolute;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    margin-bottom: 2px;
+    object-fit: contain;  
+    flex-wrap: wrap;  
+}
+/* .circle{
+    height: 3vh;
+    width: 2vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: #fff;
+    bottom: 4px;
+    left: 0%;
+    transition: left 0.5s;
+    border: 0.5px solid #191919;
+    object-fit: contain;
+} */
+.circle {
+    height: 3vh;
+    width: 2vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: #fff;
+    bottom: 4px;
+    left: 0%;
+    border: 0.5px solid #191919;
+    object-fit: contain;
+    transition: left 0.3s linear;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8),
+                0 0 20px rgba(0, 255, 0, 0.8),
+                0 0 30px rgba(0, 0, 255, 0.8),
+                0 0 40px rgba(255, 0, 255, 0.8),
+                0 0 50px rgba(0, 255, 255, 0.8),
+                0 0 60px rgba(255, 255, 0, 0.8);
+    animation: glowCycle 4s linear infinite;
+  }
+  
+  .circle.paused {
+    animation-play-state: paused;
+  }
+  
+  @keyframes glowCycle {
+    0% { box-shadow: 0 0 15px rgba(255, 0, 0, 0.9), 0 0 25px rgba(255, 0, 0, 0.8);}
+    20% { box-shadow: 0 0 15px rgba(0, 255, 0, 0.9), 0 0 25px rgba(0, 255, 0, 0.8);}
+    40% { box-shadow: 0 0 15px rgba(0, 0, 255, 0.9), 0 0 25px rgba(0, 0, 255, 0.8);}
+    60% { box-shadow: 0 0 15px rgba(255, 0, 255, 0.9), 0 0 25px rgba(255, 0, 255, 0.8);}
+    80% { box-shadow: 0 0 15px rgba(0, 255, 255, 0.9), 0 0 25px rgba(0, 255, 255, 0.8);}
+    100% { box-shadow: 0 0 15px rgba(255, 255, 0, 0.9), 0 0 25px rgba(255, 255, 0, 0.8);}
+  }
+  
+.prev img{
+    width: 2vw;
+    height: 4vh;
+    margin-bottom: 20px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.play img{
+    width: 2vw;
+    height: 4vh;
+    margin-bottom: 20px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.next img{
+    width: 2vw;
+    height: 4vh;
+    margin-bottom: 20px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.songlist{
+    padding-left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.songlist ul li{
+    list-style-type: disclosure-closed;
+    border: 2px solid rgba(255, 255, 255, 0.048);
+    margin: 10px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+}
+.songcard img{
+    filter: invert(1);
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+.songcard{
+    display: flex;
+    justify-content: space-around;
+}
+.time,
+.songinfo{
+     
+        padding-bottom: 20px;
+        margin-right: 14px;
+        margin-left: 70px;
+        margin-bottom: 10px;
+        margin-top: 14px;
+        padding-bottom: 30px;
+        padding-top: 7px;
+        position:static;
+        filter: invert(1);
+        object-fit: contain;
+        font-size: 13px;
+}
+
+.mid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.mid h3{
+    color: rgb(53, 211, 185);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left: 1rem;
+    font-size: 18px;
+    text-decoration: dotted;
+    padding-bottom: 10px;
+    position: relative;
+}
+.Lib
+{
+    height: 6vh;
+    width: 5vw;
+    padding-left: 20px;
+    display: flex;
+    border-radius: 5rem;
+    filter: invert(1);
+}
+.footer{
+    margin-top: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    width: 390px;
+    flex-wrap: wrap;
+    
+}
+.foot{
+    color: white;
+    padding-left: 1rem;
+    font-weight: 800;
+}
+.foo1{font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.foo2{font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+}
+.foot img{
+    filter: invert(1);
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+  
+    .img {
+      width: 8vw;
+      height: 6vh;
+      margin-bottom: 0.5rem;
+    }
+  
+    .searchbar {
+      width: 80%;
+      height: 6vh;
+      font-size: 1.5ch;
+      margin: 0.5rem 0;
+    }
+  
+    .oth1, .oth2, .oth3, .install, .sign, .container {
+      display: none; /* Hide clutter on phones */
+    }
+  
+    .upper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box1 {
+      width: 90vw;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  
+    .rightbox {
+      width: 90vw;
+      height: auto;
+      justify-content: center;
+    }
+  
+    .cardcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card, .card1, .card2, .card3 {
+      width: 80vw;
+      margin-bottom: 1rem;
+    }
+  
+    .card img, .card1 img, .card2 img, .card3 img {
+      width: 80%;
+      height: auto;
+    }
+  
+    .songbutton {
+      width: 90vw;
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 0.5rem;
+    }
+  
+    .seekbar {
+      width: 90%;
+    }
+  
+    .circle {
+      width: 5vw;
+      height: 3vh;
+    }
+  
+    .time, .songinfo {
+      font-size: 12px;
+      margin: 5px;
+    }
+  
+    .mid h3 {
+      font-size: 14px;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+  
+    .searchbar {
+      width: 50%;
+    }
+  
+    .box1 {
+      width: 35vw;
+      height: auto;
+    }
+  
+    .rightbox {
+      width: 60vw;
+      height: auto;
+    }
+  
+    .card, .card1, .card2, .card3 {
+      width: 40%;
+    }
+  
+    .songbutton {
+      width: 80%;
+    }
+  }
+  
